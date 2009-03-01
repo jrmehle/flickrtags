@@ -8,7 +8,7 @@ module FlickrTags
 EOS
   end
 
-  
+  desc "The namespace for referencing flickr photos and slideshows"
   tag "flickr" do |tag|
     tag.expand
   end
